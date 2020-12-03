@@ -13,6 +13,9 @@ export default createGlobalStyle`
     background-color: #fff;
     -webkit-font-smoothing: antialiased;
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
   }
 
   input, button {
@@ -20,8 +23,14 @@ export default createGlobalStyle`
   }
 
   #root {
-    max-width: 960px;
+    max-width: 580px;
+    width: 100%;
     margin: 0 auto;
     padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `;

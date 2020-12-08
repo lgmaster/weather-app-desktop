@@ -18,7 +18,7 @@ export default createGlobalStyle`
     display: flex;
   }
 
-  input, button {
+  button {
     cursor: pointer;
   }
 
